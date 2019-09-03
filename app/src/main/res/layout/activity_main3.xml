@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+   <android.support.v4.view.ViewPager
+       android:id="@+id/fragment_view"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_above="@+id/rg_button"
+       />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@android:color/background_dark"
+        android:layout_above="@+id/rg_button"
+        />
+    <RadioGroup
+        android:id="@+id/rg_button"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        >
+
+        <RadioButton
+
+            android:id="@+id/tab_home"
+            style="@style/nongye_TabRadioButton"
+            android:drawableTop="@drawable/selector_home"
+            android:text="首页"
+            android:textColor="@color/text_color_selector"
+            android:checked="true"
+            />
+        <RadioButton
+            android:id="@+id/tab_news"
+            style="@style/nongye_TabRadioButton"
+
+            android:drawableTop="@drawable/selector_news"
+            android:textColor="@color/text_color_selector"
+            android:text="常德农业新闻"
+            />
+        <RadioButton
+            android:id="@+id/tab_nongye"
+            style="@style/nongye_TabRadioButton"
+            android:drawableTop="@drawable/selector_nongye"
+            android:textColor="@color/text_color_selector"
+            android:text="农事指导"
+            />
+
+    </RadioGroup>
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ChangDeNews</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">首页</string>
+    <string name="title_dashboard">常德农业新闻</string>
+    <string name="title_notifications">农事指导</string>
+</resources>
